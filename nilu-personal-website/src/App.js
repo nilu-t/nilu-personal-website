@@ -1,16 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Sidebar from './components/Sidebar';
+import MainContent from './components/MainContent';
+import './styles/App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Nilushanth Thiruchelvam</h1>
-      <h3> Hi, I'm Nilushanth 👋 (you can call me Nilu)</h3>
-      
-
-
-    </div>
+    <Router>
+      <Sidebar />
+      <MainContent />
+    </Router>
   );
-}
+};
 
 export default App;
