@@ -21,23 +21,4 @@ const Sidebar = () => {
   );
 };
 
-// const NavLinks = styled.nav`
-//   display: flex;
-//   flex-direction: column;
-//   gap: 1rem;
-// `;
-
-// const NavItem = styled.div`
-//   font-size: 1.2rem;
-//   color: #ccd6f6;
-
-//   a {
-//     transition: color 0.3s;
-
-//     &:hover {
-//       color: #64ffda;
-//     }
-//   }
-// `;
-
 export default Sidebar;

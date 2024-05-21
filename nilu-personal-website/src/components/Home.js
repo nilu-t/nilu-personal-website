@@ -1,5 +1,30 @@
 import React from 'react';
 import '../styles/App.css'
+import Timeline from './Timeline';
+
+
+const events = [
+  {
+    date: '2020 SEPT',
+    title: 'CS @ YorkU begins'
+  },
+  {
+    date: 'MAR - JUN 2023',
+    title: 'Data Collection Engineer Intern @ Blue Guardian'
+  },
+  {
+    date: '2023 NOV - 2024 APR',
+    title: 'Software Developer Intern @ Ecomtent'
+  },
+  {
+    date: '2023 NOV - 2024 MAR',
+    title: 'Coding Coach @ Skill Samurai'
+  },
+  {
+    date: 'JAN 2025 ',
+    title: 'Expected Graduation @ YorkU'
+  },
+];
 
 const Home = () => {
   return (
@@ -18,6 +43,10 @@ const Home = () => {
         <p>
           Thank you for taking the time to learn a bit about me. I'm always open to connecting and exploring new opportunities. Feel free to reach out if you'd like to chat or collaborate on a project!
         </p>
+      </section>
+
+      <section>
+        <Timeline events={events} />
       </section>
 
       <section>

@@ -43,7 +43,6 @@ li {
 }
 
 #home #about-me{
-  margin-top: 25%;
 
 }
 
@@ -83,9 +82,13 @@ li {
 * --------------------- Experience specific styles -----------------------------------------
 */
 #experience{
-  margin-left: 10%;
+  margin-left: 25%;
   display: flex;
   flex-direction: column;
+}
+
+#experience #ecomtent{
+  margin-top: 25%;
 }
 
 /**
@@ -127,4 +130,38 @@ nav div{
 
 #main-content{
   margin-left: 300px; /* exactly 300px offset from the inital sidebar column (which takes up 300px width)*/
+}
+
+/** 
+*--------------------- Timeline specific styles -----------------------------------------
+*/
+/* General timeline container style */
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Each timeline event container */
+.timeline-event {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Date section styling */
+.timeline-date {
+  font-weight: bold;
+  margin-right: 20px;
+  width: 200px; /* Ensures dates are aligned */
+  text-align: left; /* Align text to the right */
+}
+
+/* Content box styling */
+.timeline-content {
+  padding: 10px 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid whitesmoke;
+  max-width: 150px;
 }

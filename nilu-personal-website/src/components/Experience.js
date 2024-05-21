@@ -4,8 +4,8 @@ import '../styles/App.css'
 const Experience = () => {
   return (
     <div id= "experience">
-      <h1>Experience</h1>
-      <section>
+      <section id="ecomtent">
+        <h1>Experience</h1>
         <h2>Ecomtent</h2>
         <h3>Software Developer Intern (Nov 2023 - Apr 2024)</h3>
         <ul>
@@ -14,7 +14,7 @@ const Experience = () => {
           <li>Deployed Python-based Selenium web scraping using Docker on AWS Lambda.</li>
         </ul>
       </section>
-      <section>
+      <section id="blue-guardian">
         <h2>Blue Guardian</h2>
         <h3>Data Collection Engineer Intern (Mar 2023 - Jun 2023)</h3>
         <ul>
