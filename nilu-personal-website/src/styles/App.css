@@ -135,6 +135,18 @@ nav div{
 /** 
 *--------------------- Timeline specific styles -----------------------------------------
 */
+
+#timeline{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#timeline #timeline-right{
+  margin-left: 5%;
+  width: 40%;
+}
+
 /* General timeline container style */
 .timeline {
   display: flex;
